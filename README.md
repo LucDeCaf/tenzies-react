@@ -1,0 +1,1 @@
+This is the final project in the freecodecamp.org React course, and I wanted to have a place to store the code.
