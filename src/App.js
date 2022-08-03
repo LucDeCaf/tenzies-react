@@ -1,8 +1,11 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <main>
+    <main className="main">
+      <div className="board">
+
+      </div>
     </main>
   );
 }
