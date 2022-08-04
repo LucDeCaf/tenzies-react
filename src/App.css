@@ -59,11 +59,15 @@ main * {
   align-items: center;
 
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+  border-radius: 10px;
   width: 50px;
   height: 50px;
   background-color: white;
   cursor: pointer;
+}
+
+.dice--held {
+  background-color: #59e391;
 }
 
 .reroll-button {
@@ -81,7 +85,6 @@ main * {
 
 .reroll-button:hover {
   background-color: #3b26c8;
-  transition: background-color 0.15s;
 }
 
 .reroll-button:active {
