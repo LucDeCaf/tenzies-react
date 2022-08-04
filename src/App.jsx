@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Dice from "./components/Dice";
+import Reroll from "./components/Reroll";
 
 function App() {
   const [diceValues, setDiceValues] = useState(allNewDice());
@@ -19,6 +20,7 @@ function App() {
       <div className="dice-container">
         {diceElements}
       </div>
+      <Reroll handleClick={() => setDiceValues(allNewDice())} />
     </main>
   );
 }
