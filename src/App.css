@@ -28,7 +28,22 @@ main {
   background-color: whitesmoke;
   width: 400px;
   height: 400px;
+  padding: 10px;
   border-radius: 10px;
+}
+
+main * {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.instructions {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 300px;
 }
 
 .dice-container {
@@ -52,8 +67,10 @@ main {
 }
 
 .reroll-button {
-  width: 90px;
-  height: 35px;
+  width: 120px;
+  height: 45px;
+  font-family: "Karla";
+  font-size: 1.25rem;
   background-color: #5035ff;
   color: white;
   border: none;
@@ -64,4 +81,9 @@ main {
 
 .reroll-button:hover {
   background-color: #3b26c8;
+  transition: background-color 0.15s;
+}
+
+.reroll-button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
